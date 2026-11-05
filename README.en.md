@@ -1,6 +1,6 @@
-# Plateon Wiki Skill
+# PlateUp Wiki Skill
 
-Plateon Wiki Skill is an OpenClaw skill for **PlateUp!**, covering recipes, appliances, automation, cards, achievements, customer rules, and game terminology.
+PlateUp Wiki Skill is an OpenClaw skill for **PlateUp!**, covering recipes, appliances, automation, cards, achievements, customer rules, and game terminology.
 
 [中文说明](README.md)
 
@@ -21,7 +21,7 @@ For English questions, the skill displays English game names only. For Chinese q
 ## Repository Layout
 
 ```text
-plateon-wiki-skill/
+plateup-wiki-skill/
 ├── SKILL.md                  # Skill instructions
 ├── agents/openai.yaml         # Optional UI metadata
 └── references/
@@ -42,10 +42,10 @@ plateon-wiki-skill/
 Copy or symlink this directory to an OpenClaw skill directory:
 
 ```bash
-cp -R plateon-wiki-skill ~/.openclaw/skills/plateon-wiki-skill
+cp -R plateup-wiki-skill ~/.openclaw/skills/plateup-wiki-skill
 ```
 
-After installation, invoke it explicitly with `$plateon-wiki-skill`, or let OpenClaw select it automatically for relevant PlateUp! questions.
+After installation, invoke it explicitly with `$plateup-wiki-skill`, or let OpenClaw select it automatically for relevant PlateUp! questions.
 
 ## ClawHub
 

@@ -1,6 +1,6 @@
-# Plateon Wiki Skill
+# PlateUp Wiki Skill
 
-Plateon Wiki Skill 是面向 **PlateUp!（速速上菜）** 的 OpenClaw 知识技能，覆盖食谱、设备、自动化、卡牌、成就、顾客规则和游戏术语。
+PlateUp Wiki Skill 是面向 **PlateUp!（速速上菜）** 的 OpenClaw 知识技能，覆盖食谱、设备、自动化、卡牌、成就、顾客规则和游戏术语。
 
 [English README](README.en.md)
 
@@ -24,7 +24,7 @@ Plateon Wiki Skill 是面向 **PlateUp!（速速上菜）** 的 OpenClaw 知识�
 ## 目录结构
 
 ```text
-plateon-wiki-skill/
+plateup-wiki-skill/
 ├── SKILL.md                  # 技能指令
 ├── agents/openai.yaml         # 可选界面元数据
 └── references/
@@ -45,10 +45,10 @@ plateon-wiki-skill/
 将本目录复制或链接到 OpenClaw skill 目录：
 
 ```bash
-cp -R plateon-wiki-skill ~/.openclaw/skills/plateon-wiki-skill
+cp -R plateup-wiki-skill ~/.openclaw/skills/plateup-wiki-skill
 ```
 
-安装后可以使用 `$plateon-wiki-skill` 显式调用，也可以让 OpenClaw 在相关问题中自动选择该技能。
+安装后可以使用 `$plateup-wiki-skill` 显式调用，也可以让 OpenClaw 在相关问题中自动选择该技能。
 
 ## 发布到 ClawHub
 

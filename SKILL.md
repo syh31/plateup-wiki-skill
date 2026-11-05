@@ -1,9 +1,9 @@
 ---
-name: plateon-wiki-skill
+name: plateup-wiki-skill
 description: Answer questions about PlateUp! / 速速上菜 gameplay, recipes, appliances, cards, automation, achievements, and terminology in Chinese or English.
 ---
 
-# Plateon Wiki Skill
+# PlateUp Wiki Skill
 
 Use this skill for PlateUp! / 速速上菜 game-mechanics questions, item and recipe lookups, automation planning, achievement help, and English-Chinese terminology.
 
